@@ -1,0 +1,33 @@
+{
+  "status": "passed",
+  "verifiedAt": "2026-10-18T07:17:26.063Z",
+  "url": "https://seonyoungyoo16.github.io/portfolio/#project/signup",
+  "scope": "GitHub Pages static simulation; actual Spring Boot/PostgreSQL/Redis/SMTP/Keycloak executed locally",
+  "implementationRevision": "b5294ab9bdcf27d424ae7326f186bc02fed82f9b",
+  "portfolioRevision": "0f0b0c5be03b42e3c2e16796434aa870753b1ce8",
+  "pagesRevision": "80d9b47ed0e479feb3bc374d5ce6a8cba5696176",
+  "workflow": "https://github.com/seonyoungyoo16/portfolio/actions/runs/39107059228",
+  "backendChecks": 12,
+  "actualBackendBrowserCases": 50,
+  "portfolioBrowserGroups": 18,
+  "existingLoginBrowserGroups": 18,
+  "sourceAnchors": 27,
+  "verifiedResources": [
+    {
+      "file": "index.html",
+      "status": 200,
+      "sha256": "63959db59b77fc3fcad40bec4bef8f2489d18a70694f81f8c30cd278c895ea96"
+    },
+    {
+      "file": "assets/index-CidgMJFT.css",
+      "status": 200,
+      "sha256": "6ac3afd231feaf09e7f030296e566a6d9f23f805d577be93ca6fc5fa09337fb4"
+    },
+    {
+      "file": "assets/index-DIlfT2Kq.js",
+      "status": 200,
+      "sha256": "efcf2133336d6fa8f7640fa07893ebba55afa647025ca4ec3a096cb1fa60ffbf"
+    }
+  ],
+  "report": "https://github.com/seonyoungyoo16/portfolio/blob/main/docs/signup-verification/published/browser.json"
+}
