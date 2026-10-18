@@ -1,0 +1,56 @@
+{
+  "status": "passed",
+  "startedAt": "2026-10-18T06:33:38.705Z",
+  "finishedAt": "2026-10-18T06:33:51.207Z",
+  "tests": [
+    {
+      "id": "D01",
+      "title": "D01 계정·자격정보·동의 원자 커밋과 별도 실제 로그인",
+      "status": "passed",
+      "duration": 1166,
+      "error": null
+    },
+    {
+      "id": "D02",
+      "title": "D02 같은 키의 동시 제출은 계정·동의 한 번 확정",
+      "status": "passed",
+      "duration": 805,
+      "error": null
+    },
+    {
+      "id": "D03",
+      "title": "D03 실제 응답 연결 유실 뒤 같은 가입 결과 복구",
+      "status": "passed",
+      "duration": 896,
+      "error": null
+    },
+    {
+      "id": "D04",
+      "title": "D04 같은 키에 다른 입력은 409이며 최초 데이터 유지",
+      "status": "passed",
+      "duration": 743,
+      "error": null
+    },
+    {
+      "id": "D05",
+      "title": "D05 두 독립 브라우저의 같은 이메일 동시 가입",
+      "status": "passed",
+      "duration": 1899,
+      "error": null
+    },
+    {
+      "id": "D06",
+      "title": "D06 이메일 비교 정책은 대소문자 중복만 합치고 별칭을 추정하지 않음",
+      "status": "passed",
+      "duration": 2223,
+      "error": null
+    },
+    {
+      "id": "D08",
+      "title": "D08 확인 증명 만료와 필수 동의 변경은 계정 생성 전 거부",
+      "status": "passed",
+      "duration": 4137,
+      "error": null
+    }
+  ]
+}

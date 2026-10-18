@@ -1,0 +1,28 @@
+{
+  "status": "passed",
+  "passed": 12,
+  "completedAt": "2026-10-18T07:07:05.709Z",
+  "stages": [
+    {
+      "status": "passed",
+      "stage": "email",
+      "passed": 4,
+      "completedAt": "2026-10-18T07:07:01.453Z",
+      "evidence": "actual HTTPS + PostgreSQL hashes/encrypted outbox + Mailpit SMTP message + token consumption"
+    },
+    {
+      "status": "passed",
+      "stage": "accounts",
+      "passed": 4,
+      "completedAt": "2026-10-18T07:07:03.078Z",
+      "evidence": "actual HTTPS + Argon2id DB hash + atomic consents + independent A/B unique conflict and no orphan rows"
+    },
+    {
+      "status": "passed",
+      "stage": "oidc",
+      "passed": 4,
+      "completedAt": "2026-10-18T07:07:05.666Z",
+      "evidence": "actual Keycloak browser redirect + code/PKCE + JWKS/claims + PostgreSQL credential and identity ownership checks"
+    }
+  ]
+}

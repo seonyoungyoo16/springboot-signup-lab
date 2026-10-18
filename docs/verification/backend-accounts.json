@@ -1,0 +1,7 @@
+{
+  "status": "passed",
+  "stage": "accounts",
+  "passed": 4,
+  "completedAt": "2026-10-18T07:07:03.078Z",
+  "evidence": "actual HTTPS + Argon2id DB hash + atomic consents + independent A/B unique conflict and no orphan rows"
+}

@@ -1,0 +1,7 @@
+{
+  "status": "passed",
+  "stage": "email",
+  "passed": 4,
+  "completedAt": "2026-10-18T07:07:01.453Z",
+  "evidence": "actual HTTPS + PostgreSQL hashes/encrypted outbox + Mailpit SMTP message + token consumption"
+}

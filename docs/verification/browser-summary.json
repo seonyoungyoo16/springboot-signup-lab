@@ -1,0 +1,357 @@
+{
+  "status": "passed",
+  "startedAt": "2026-10-18T07:03:49.067Z",
+  "finishedAt": "2026-10-18T07:05:57.780Z",
+  "tests": [
+    {
+      "id": "D01",
+      "title": "D01 계정·자격정보·동의 원자 커밋과 별도 실제 로그인",
+      "status": "passed",
+      "duration": 907,
+      "error": null
+    },
+    {
+      "id": "D02",
+      "title": "D02 같은 키의 동시 제출은 계정·동의 한 번 확정",
+      "status": "passed",
+      "duration": 603,
+      "error": null
+    },
+    {
+      "id": "D03",
+      "title": "D03 실제 응답 연결 유실 뒤 같은 가입 결과 복구",
+      "status": "passed",
+      "duration": 869,
+      "error": null
+    },
+    {
+      "id": "D04",
+      "title": "D04 같은 키에 다른 입력은 409이며 최초 데이터 유지",
+      "status": "passed",
+      "duration": 1000,
+      "error": null
+    },
+    {
+      "id": "D05",
+      "title": "D05 두 독립 브라우저의 같은 이메일 동시 가입",
+      "status": "passed",
+      "duration": 1762,
+      "error": null
+    },
+    {
+      "id": "D06",
+      "title": "D06 이메일 비교 정책은 대소문자 중복만 합치고 별칭을 추정하지 않음",
+      "status": "passed",
+      "duration": 1711,
+      "error": null
+    },
+    {
+      "id": "D08",
+      "title": "D08 확인 증명 만료와 필수 동의 변경은 계정 생성 전 거부",
+      "status": "passed",
+      "duration": 4635,
+      "error": null
+    },
+    {
+      "id": "E01",
+      "title": "E01 실제 SMTP 수신과 명시적 이메일 확인",
+      "status": "passed",
+      "duration": 889,
+      "error": null
+    },
+    {
+      "id": "E02",
+      "title": "E02 메일 링크 GET은 확인 증명을 소비하지 않음",
+      "status": "passed",
+      "duration": 417,
+      "error": null
+    },
+    {
+      "id": "E03",
+      "title": "E03 다른 브라우저의 확인 요청은 원래 링크를 소비하지 않음",
+      "status": "passed",
+      "duration": 710,
+      "error": null
+    },
+    {
+      "id": "E04",
+      "title": "E04 같은 프로필 두 탭의 동시 확인은 한 번만 확정",
+      "status": "passed",
+      "duration": 922,
+      "error": null
+    },
+    {
+      "id": "E05",
+      "title": "E05 재발송한 현재 세대만 유효",
+      "status": "passed",
+      "duration": 6128,
+      "error": null
+    },
+    {
+      "id": "E06",
+      "title": "E06 A·B 동시 재발송과 간격·횟수 제한",
+      "status": "passed",
+      "duration": 3858,
+      "error": null
+    },
+    {
+      "id": "E07",
+      "title": "E07 실제 경과 시간 이후 링크 만료",
+      "status": "passed",
+      "duration": 4135,
+      "error": null
+    },
+    {
+      "id": "E08",
+      "title": "E08 주소 변경은 이미 확인한 증명을 무효화",
+      "status": "passed",
+      "duration": 723,
+      "error": null
+    },
+    {
+      "id": "E09",
+      "title": "E09 새로고침과 A→B 이동은 기존 흐름과 메일을 유지",
+      "status": "passed",
+      "duration": 646,
+      "error": null
+    },
+    {
+      "id": "E10",
+      "title": "E10 기존 주소도 같은 접수 응답, 소유 확인 뒤 기존 계정 안내",
+      "status": "passed",
+      "duration": 869,
+      "error": null
+    },
+    {
+      "id": "F01",
+      "title": "F01 메일 커밋 직전 실패는 challenge·outbox·결과를 함께 롤백",
+      "status": "passed",
+      "duration": 713,
+      "error": null
+    },
+    {
+      "id": "F02",
+      "title": "F02 실제 lease 소유 앱 종료 후 다른 작업자가 durable outbox 회수",
+      "status": "passed",
+      "duration": 8981,
+      "error": null
+    },
+    {
+      "id": "F03",
+      "title": "F03 실제 SMTP 차단·재시도 상한·만료 작업 중단과 복구",
+      "status": "passed",
+      "duration": 13062,
+      "error": null
+    },
+    {
+      "id": "F04",
+      "title": "F04 SMTP 250 응답 실제 유실과 작업자 종료 뒤 중복 메일·단일 가입",
+      "status": "passed",
+      "duration": 5587,
+      "error": null
+    },
+    {
+      "id": "F05",
+      "title": "F05 실제 SMTP에 옛 캡처 메일을 늦게 재주입해도 최신 세대만 확인",
+      "status": "passed",
+      "duration": 6612,
+      "error": null
+    },
+    {
+      "id": "F06",
+      "title": "F06 Redis 실제 TCP 차단 시 확인·가입은 503, 복구해도 만료 연장 없음",
+      "status": "passed",
+      "duration": 4533,
+      "error": null
+    },
+    {
+      "id": "F07",
+      "title": "F07 DB 실제 차단과 커밋 후 HTTP 연결 유실을 구분해 결과 복구",
+      "status": "passed",
+      "duration": 1122,
+      "error": null
+    },
+    {
+      "id": "F08",
+      "title": "F08 실제 Redis 재시작·옛 문맥 복원으로 DB의 소비·완료 상태 우회 불가",
+      "status": "passed",
+      "duration": 1751,
+      "error": null
+    },
+    {
+      "id": "F09",
+      "title": "F09 A 실제 종료 뒤 B에서 기존 흐름 확인·가입 계속",
+      "status": "passed",
+      "duration": 3596,
+      "error": null
+    },
+    {
+      "id": "F10",
+      "title": "F10 실제 IdP TCP 차단·JWKS 경계 실패·코드 소비 뒤 중단은 재시작 요구",
+      "status": "passed",
+      "duration": 2035,
+      "error": null
+    },
+    {
+      "id": "U01",
+      "title": "U01 관찰 화면을 열어두어도 실제 흐름·확인 증명 만료 연장 없음",
+      "status": "passed",
+      "duration": 15693,
+      "error": null
+    },
+    {
+      "id": "U02",
+      "title": "U02 네 가지 뷰포트에서 패널 이동·입력·오류·포커스와 가로 넘침 확인",
+      "status": "passed",
+      "duration": 720,
+      "error": null
+    },
+    {
+      "id": "U03",
+      "title": "U03 실제 이벤트의 모든 소스 발췌·행·해시와 DB 상태 확인",
+      "status": "passed",
+      "duration": 804,
+      "error": null
+    },
+    {
+      "id": "U04",
+      "title": "U04 실제 실행기 상태 표시·중복 실행 방지와 처리 경계 제어",
+      "status": "passed",
+      "duration": 587,
+      "error": null
+    },
+    {
+      "id": "O01",
+      "title": "O01 실제 Keycloak 코드·PKCE·서명 검증 후 SSO 가입",
+      "status": "passed",
+      "duration": 945,
+      "error": null
+    },
+    {
+      "id": "O02",
+      "title": "O02 같은 외부 신원의 재가입은 추가 계정 없이 기존 SSO 로그인",
+      "status": "passed",
+      "duration": 1290,
+      "error": null
+    },
+    {
+      "id": "O03",
+      "title": "O03 외부 이메일이 같아도 기존 계정에 자동 연결하지 않음",
+      "status": "passed",
+      "duration": 574,
+      "error": null
+    },
+    {
+      "id": "O04",
+      "title": "O04 기존 계정과 외부 신원을 확인한 명시적 연결",
+      "status": "passed",
+      "duration": 1141,
+      "error": null
+    },
+    {
+      "id": "O05",
+      "title": "O05 다른 계정에 연결된 신원은 옮겨 붙일 수 없음",
+      "status": "passed",
+      "duration": 1162,
+      "error": null
+    },
+    {
+      "id": "O06",
+      "title": "O06 issuer가 다르면 같은 subject인 다른 신원으로 판정",
+      "status": "passed",
+      "duration": 785,
+      "error": null
+    },
+    {
+      "id": "O07",
+      "title": "O07 실제 IdP 이메일 변경도 기존 계정과 기본 이메일을 바꾸지 않음",
+      "status": "passed",
+      "duration": 928,
+      "error": null
+    },
+    {
+      "id": "O08",
+      "title": "O08 email 없음·미검증·미신뢰와 허용한 issuer 정책 분리",
+      "status": "passed",
+      "duration": 2202,
+      "error": null
+    },
+    {
+      "id": "O09",
+      "title": "O09 실제 토큰의 검증 경계에서 state·nonce·iss·aud·서명·exp 거부",
+      "status": "passed",
+      "duration": 2416,
+      "error": null
+    },
+    {
+      "id": "O10",
+      "title": "O10 중복 callback은 재교환하지 않고 다른 프로필에서는 거부",
+      "status": "passed",
+      "duration": 855,
+      "error": null
+    },
+    {
+      "id": "O11",
+      "title": "O11 연결 중 다른 탭의 로그아웃·사용자 교체·버전 폐기",
+      "status": "passed",
+      "duration": 2507,
+      "error": null
+    },
+    {
+      "id": "O12",
+      "title": "O12 취소·실제 거래 만료·최근 인증 만료를 구분",
+      "status": "passed",
+      "duration": 9448,
+      "error": null
+    },
+    {
+      "id": "D07",
+      "title": "D07 일반 가입과 실제 OIDC 가입의 이메일 동시 충돌",
+      "status": "passed",
+      "duration": 1442,
+      "error": null
+    },
+    {
+      "id": "S01",
+      "title": "S01 변경 API의 CSRF 누락·다른 출처 요청은 쓰기 전에 거부",
+      "status": "passed",
+      "duration": 274,
+      "error": null
+    },
+    {
+      "id": "S02",
+      "title": "S02 다른 브라우저·실행에 ID와 멱등 키를 대입해도 소유 결과 접근 불가",
+      "status": "passed",
+      "duration": 997,
+      "error": null
+    },
+    {
+      "id": "S03",
+      "title": "S03 실제 흐름·스냅샷·보고서·정리된 URL에 인증 원문이 남지 않음",
+      "status": "passed",
+      "duration": 1152,
+      "error": null
+    },
+    {
+      "id": "S04",
+      "title": "S04 A·B의 실제 Redis 이메일 제한은 원자적이며 위조 IP로 우회 불가",
+      "status": "passed",
+      "duration": 1499,
+      "error": null
+    },
+    {
+      "id": "S05",
+      "title": "S05 Host·외부 Origin·공급자·리다이렉트 조작과 메일 HTML 입력 거부",
+      "status": "passed",
+      "duration": 366,
+      "error": null
+    },
+    {
+      "id": "S06",
+      "title": "S06 IDN 이메일·공백과 한글 비밀번호를 보존하고 길이·동의 정책 적용",
+      "status": "passed",
+      "duration": 664,
+      "error": null
+    }
+  ]
+}

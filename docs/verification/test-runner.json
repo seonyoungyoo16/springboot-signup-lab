@@ -1,0 +1,10 @@
+{
+  "status": "passed",
+  "completedAt": "2026-10-18T07:05:59.450Z",
+  "evidence": [
+    "isolated intentional failing assertion surfaced as failed",
+    "actual UI button started Playwright child",
+    "running state disables duplicate execution",
+    "50 actual backend browser cases surfaced as passed"
+  ]
+}

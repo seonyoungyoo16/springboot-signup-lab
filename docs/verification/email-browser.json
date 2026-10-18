@@ -1,0 +1,77 @@
+{
+  "status": "passed",
+  "startedAt": "2026-10-18T06:30:58.850Z",
+  "finishedAt": "2026-10-18T06:31:18.871Z",
+  "tests": [
+    {
+      "id": "E01",
+      "title": "E01 실제 SMTP 수신과 명시적 이메일 확인",
+      "status": "passed",
+      "duration": 900,
+      "error": null
+    },
+    {
+      "id": "E02",
+      "title": "E02 메일 링크 GET은 확인 증명을 소비하지 않음",
+      "status": "passed",
+      "duration": 553,
+      "error": null
+    },
+    {
+      "id": "E03",
+      "title": "E03 다른 브라우저의 확인 요청은 원래 링크를 소비하지 않음",
+      "status": "passed",
+      "duration": 1147,
+      "error": null
+    },
+    {
+      "id": "E04",
+      "title": "E04 같은 프로필 두 탭의 동시 확인은 한 번만 확정",
+      "status": "passed",
+      "duration": 908,
+      "error": null
+    },
+    {
+      "id": "E05",
+      "title": "E05 재발송한 현재 세대만 유효",
+      "status": "passed",
+      "duration": 6217,
+      "error": null
+    },
+    {
+      "id": "E06",
+      "title": "E06 A·B 동시 재발송과 간격·횟수 제한",
+      "status": "passed",
+      "duration": 3853,
+      "error": null
+    },
+    {
+      "id": "E07",
+      "title": "E07 실제 경과 시간 이후 링크 만료",
+      "status": "passed",
+      "duration": 3857,
+      "error": null
+    },
+    {
+      "id": "E08",
+      "title": "E08 주소 변경은 이미 확인한 증명을 무효화",
+      "status": "passed",
+      "duration": 703,
+      "error": null
+    },
+    {
+      "id": "E09",
+      "title": "E09 새로고침과 A→B 이동은 기존 흐름과 메일을 유지",
+      "status": "passed",
+      "duration": 866,
+      "error": null
+    },
+    {
+      "id": "E10",
+      "title": "E10 기존 주소도 같은 접수 응답, 소유 확인 뒤 기존 계정 안내",
+      "status": "passed",
+      "duration": 478,
+      "error": null
+    }
+  ]
+}
